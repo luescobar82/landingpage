@@ -1,0 +1,338 @@
+header{
+    background-color: #FEF3E2;
+}
+
+header nav a{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center; /* Alineación vertical centrada */
+    padding: 10px; /* Espaciado alrededor */
+}
+
+.logo img {
+    height: 78px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 100px;
+}
+
+.menu {
+    width: 500px;
+}
+
+.menu nav a {
+    margin: 20px; /* Espacio entre los enlaces del menú */
+    text-decoration: none; /* Sin subrayado */
+    color: #3A2D32; /* Color del texto */
+}
+
+
+
+.hero {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    background-color: #FEF3E2;
+}
+
+.text{
+    padding: 100px 40px;
+}
+.text h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 85px;
+    font-style:normal;
+    text-transform:none;
+    color: #3A2D32;
+}
+
+.text h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #565656;
+}
+
+.explore-btn {
+    background-color: #221E42;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.explore-btn:hover {
+    background-color: transparent; /* Fondo azul oscuro al pasar el ratón */
+    color: #221E42;
+    border-color: #221E42; /* Cambia también el color del borde */
+}
+
+.order-btn {
+    background-color: transparent;
+    color: #221E42;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #221E42;;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-btn:hover {
+    background-color: #221E42; /* Fondo azul oscuro al pasar el ratón */
+    color: white;
+}
+
+.order-btn i {
+    margin-right: 8px; /* espacio entre icono y texto */
+}
+
+.score h4{
+    font-family: "Playfair Display", serif; /* Cambia la fuente a Playfair Display */
+    font-weight: 800; /* Ajusta el peso según sea necesario */
+    font-size: 48px; /* Mantiene el tamaño de 48px */
+    color: #221E42; /* Color del texto */
+}
+
+.score p{
+    font-family:  "Poppins", sans-serif; /* Cambia la fuente a Playfair Display */
+    font-weight: 400; /* Ajusta el peso según sea necesario */
+    font-size: 16px; /* Mantiene el tamaño de 48px */
+    color: #565656; /* Color del texto */
+}
+
+.score {
+    display: flex; /* Usa flexbox para la disposición */
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; /* Centra verticalmente si es necesario */
+    margin: 0; /* Elimina el margen del contenedor */
+}
+
+.score h4, .score img, .score p {
+    margin: 0; /* Elimina el margen de cada elemento */
+}
+
+.testimonials h4{
+    font-family: "Playfair Display", serif; /* Cambia la fuente a Playfair Display */
+    font-weight: 800; /* Ajusta el peso según sea necesario */
+    font-size: 48px; /* Mantiene el tamaño de 48px */
+    color: #221E42; /* Color del texto */
+}
+
+.testimonials {
+    display: flex; /* Usa flexbox para la disposición */
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; /* Centra verticalmente si es necesario */
+    margin: 0; /* Elimina el margen del contenedor */
+}
+
+.testimonials h4, .score img, .score p {
+    margin: 0; /* Elimina el margen de cada elemento */
+}
+
+.container {
+    display: flex; /* Usa flexbox para la disposición */
+    justify-content:left; /* Centra horizontalmente los divs en el contenedor */
+    gap: 20px; /* Espacio entre los divs */
+    padding: 50px;
+}
+
+.score, .testimonials {
+    display: flex; /* Asegura que el contenido dentro de cada div esté alineado */
+    flex-direction: column; /* Coloca los elementos en columna dentro de cada div */
+    align-items: center; /* Centra los elementos dentro de cada div */
+}
+
+.small-image {
+    width: 100%; /* Cambia este valor para ajustar el tamaño */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.bloque2 p{
+    font-family:  "Poppins", sans-serif; /* Cambia la fuente a Playfair Display */
+    font-weight: 400; /* Ajusta el peso según sea necesario */
+    font-size: 30px; /* Mantiene el tamaño de 48px */
+    color: #3A2D32; /* Color del texto */
+    text-align: center;
+    padding: 40px;
+}
+
+.bloque2 {
+    position: relative; /* Permite la posición absoluta de los elementos hijos */
+    padding: 20px; /* Espacio alrededor del bloque */
+}
+
+.circle-img {
+    position: absolute; /* Posiciona la imagen en relación a su contenedor */
+    top: 15px; /* Ajusta la posición vertical */
+    left: 1000px; /* Ajusta la posición horizontal */
+    width: 67px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+}
+
+.circle-img2 {
+    position: absolute; /* Posiciona la imagen en relación a su contenedor */
+    top: 250px; /* Ajusta la posición vertical */
+    left: 200px; /* Ajusta la posición horizontal */
+    width: 67px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+}
+
+.quote{
+    padding: 40px;
+    background-color: #FDF2E1;
+}
+.quote h5{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400; /* Ajusta el peso según sea necesario */
+    font-size: 20px; /* Mantiene el tamaño de 48px */
+    color: #FF7A00; /* Color del texto */
+    text-align:left;
+}
+
+.frase{
+    font-family: "Playfair Display", serif; /* Fuente de la frase */
+    font-weight: 400; /* Grosor normal */
+    font-size: 32px; /* Tamaño de la fuente */
+    color: #000000; /* Color del texto */
+    margin: 10px 0; /* Espacio alrededor de la frase */
+}
+
+.author{
+    font-family: 'DM Sans', sans-serif; /* Fuente de la frase */
+    font-weight: 400; /* Grosor normal */
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #000000; /* Color del texto */
+    margin: 40px 0; /* Espacio alrededor de la frase */
+}
+
+.quote-container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente al centro */
+    position: relative; /* Posiciona los elementos relativos a este contenedor */
+}
+
+.quote {
+    position: relative; /* Posicionamiento relativo para el contenedor principal */
+    overflow: hidden; /* Asegura que nada se desborde del contenedor */
+}
+
+.quote-container {
+    position: relative; /* Posicionamiento relativo para el contenedor de la cita */
+    z-index: 1; /* Asegura que el contenido esté sobre la imagen de fondo */
+    padding: 20px; /* Espaciado interno para el texto y el video */
+    color: white; /* Cambia el color del texto si es necesario */
+}
+
+.background-image {
+    position: absolute; /* Posiciona la imagen en relación a su contenedor */
+    top: 180px; /* Ajusta la posición vertical */
+    left: 0px; /* Ajusta la posición horizontal */
+    width: auto; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+    object-fit:none; /* Asegura que la imagen cubra el área sin distorsionarse */
+    z-index: 0; /* Asegura que la imagen esté detrás del contenido */
+}
+
+.video {
+    z-index: 1; /* Asegura que el video esté por delante de la imagen de fondo */
+}
+
+.bloques-imagen {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Espacia los bloques entre ellos */
+    align-items: flex-start; /* Alinea los bloques al inicio */
+    margin: 20px; /* Espaciado alrededor de la sección */
+}
+
+.bloque {
+    flex: 1; /* Hace que cada bloque ocupe el mismo espacio */
+    margin: 10px; /* Espaciado interno entre bloques */
+}
+
+.imagen {
+    text-align: center; /* Centra la imagen en su contenedor */
+}
+
+.descripcion {
+    margin-top: 10px; /* Espaciado superior en la descripción */
+}
+
+.descripcion h3 {
+        font-family: 'Playfair Display', serif; /* Aplica la fuente Playfair Display */
+        font-size: 48px; /* Tamaño de la fuente */
+        font-weight: 600; /* Semibold */
+        margin: 0; /* Ajusta el margen según sea necesario */
+        color: #221E42;
+}
+
+.descripcion p {
+    font-family: 'Dm Sans', serif; /* Aplica la fuente Playfair Display */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-weight: 400; /* Semibold */
+    margin: 0; /* Ajusta el margen según sea necesario */
+    color: #221E42;
+}
+
+.contenido h2 {
+    font-family: 'Playfair Display', serif; /* Aplica la fuente Playfair Display */
+    font-size: 48px; /* Tamaño de la fuente */
+    font-weight: 600; /* Semibold */
+    margin: 20px; /* Ajusta el margen según sea necesario */
+    color: #221E42;
+}
+
+.contenido h3 {
+    font-family: 'Playfair Display', serif; /* Aplica la fuente Playfair Display */
+    font-size: 48px; /* Tamaño de la fuente */
+    font-weight: 600; /* Semibold */
+    margin: 0; /* Ajusta el margen según sea necesario */
+    color: #221E42;
+}
+
+.contenido p {
+font-family: 'Dm Sans', serif; /* Aplica la fuente Playfair Display */
+font-size: 18px; /* Tamaño de la fuente */
+font-weight: 400; /* Semibold */
+margin: 0; /* Ajusta el margen según sea necesario */
+color: #221E42;
+}
+
+.background-descripcion {
+    position: absolute; /* Posiciona la imagen en relación a su contenedor */
+    top: 800px; /* Ajusta la posición vertical */
+    left: 1100px; /* Ajusta la posición horizontal */
+    width: auto; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+    object-fit:none; /* Asegura que la imagen cubra el área sin distorsionarse */
+    z-index: 0; /* Asegura que la imagen esté detrás del contenido */
+}
+
+.footer{
+    background-color: #221E42;
+    padding: 40px;
+}
+
+.footer p{
+font-family: 'Dm Sans', serif; /* Aplica la fuente Playfair Display */
+font-size: 16px; /* Tamaño de la fuente */
+font-weight: 200; /* Semibold */
+margin: 0; /* Ajusta el margen según sea necesario */
+color: white;
+}
